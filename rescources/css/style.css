@@ -7,7 +7,7 @@ body {
 
 /* Global */
 .container {
-  width: 80%;
+  width: 100%;
   margin: auto;
   overflow: hidden;
 }
@@ -23,7 +23,6 @@ header {
   overflow: hidden;
   justify-content: center;
   background: #ffffff;
-
 }
 
 header img {
@@ -63,4 +62,38 @@ header li {
   padding: 0 8px;
   font-size: 24px;
   font-weight: 600;
+}
+
+/* Showcase */
+
+#showcase {
+  background: #D9D8D3;
+}
+
+#showcase img {
+  width: 60%;
+  padding: 32px 24px;
+  float: left;
+}
+
+#showcase h1 {
+  font-size: 42px;
+  font-weight: 600;
+  color: #3D3D3C;
+  padding: 120px 0 0 0;;
+}
+
+#showcase p {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 24px 0;
+  color: #3D3D3C;
+}
+
+#showcase #start {
+  display: inline-block;
+  font-weight: lighter;
+  color: #E5E4E0;
+  background-color: #3D3D3C;
+  padding: 8px 115px;
 }
