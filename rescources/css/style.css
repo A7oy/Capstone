@@ -1,8 +1,8 @@
 body {
-  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  font: 15px/1.3 Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
-  background: #f4f4f4;
+  background: #CCCCCC;
 }
 
 /* Global */
@@ -33,7 +33,7 @@ header .branding span {
   font-size: 20px;
   text-transform: uppercase;
   font-weight: bold;
-  color: #1F1F1F;
+  color: #292929;
 }
 
 header .branding .highlight {
@@ -56,4 +56,41 @@ header nav li {
   text-decoration: none;
   padding: 0 8px 0 8px;
   display: inline-block;
+}
+
+/* Showcase */
+
+.showcase img {
+  width: 60%;
+  padding: 32px 24px;
+  float: left;
+}
+
+.showcase .showcase-right-col {
+  width: 30%;
+  float: right;
+  margin: auto;
+  float: left;
+  padding-top: 110px;
+}
+
+.showcase h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #3D3D3D;
+}
+
+.showcase p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #4C4C4C;
+  padding: 16px 0 24px 0;
+}
+
+.showcase #button {
+  display: inline-block;
+  font-weight: lighter;
+  color: #E5E4E0;
+  background-color: #3D3D3C;
+  padding: 8px 115px;
 }
